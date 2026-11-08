@@ -5,11 +5,16 @@ __pycache__/
 .venv/
 venv/
 
-# Data files
-data/raw/*
-data/processed/*
+# Ignorer les gros fichiers bruts Excel / zip
+data/raw/*.xlsx
+data/raw/*.csv
+data/raw/*.zip
 
-# Keep folder structure
+# Ne PAS ignorer les fichiers traités du contrat de données
+!data/processed/rfm_scaled.csv
+!data/processed/clients_segments.csv
+
+# Garder la structure des dossiers
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
