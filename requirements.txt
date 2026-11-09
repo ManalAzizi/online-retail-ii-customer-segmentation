@@ -1,9 +1,10 @@
-pandas
+pandas>=2.0
 numpy
 matplotlib
 seaborn
 scikit-learn
 scipy
 openpyxl
+pyarrow>=14
 jupyter
 ipykernel
